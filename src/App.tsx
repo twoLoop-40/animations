@@ -27,11 +27,11 @@ function App() {
               variants={
                 n === 1
                   ? makeVars({
-                      hover: { scale: 1.1, x: -14, y: -7 },
+                      hover: { scale: 1.1, x: -20, y: -15 },
                     })
                   : n === 4
                   ? makeVars({
-                      hover: { scale: 1.1, x: 14, y: 7 },
+                      hover: { scale: 1.1, x: 20, y: 15 },
                     })
                   : makeVars({ hover: { scale: 1 } })
               }
