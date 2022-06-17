@@ -24,7 +24,6 @@ function App() {
         <Grid>
           {[1, 2, 3, 4].map((n, index) => (
             <Box
-              custom={n}
               variants={
                 n === 1
                   ? makeVars({
