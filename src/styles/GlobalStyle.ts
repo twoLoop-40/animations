@@ -1,4 +1,4 @@
-import { css, createGlobalStyle } from 'styled-components'
+import { css, createGlobalStyle } from 'styled-components';
 
 // prettier-ignore
 export const reset = css`
@@ -65,4 +65,4 @@ a {
   color:inherit;
 }
 `
-export const GlobalStyle = createGlobalStyle`${reset}`
+export const GlobalStyle = createGlobalStyle`${reset}`;
